@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #f5f5f5; /* Light grey text for better readability */
+}
+
+header {
+  background: #fc5c85; /* Inter Miami pink */
+  color: #000; /* Black text for contrast */
+  padding: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically align logo and text */
+  justify-content: flex-start; /* Left-align content */
+  gap: 1rem; /* Space between logo and text */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 60px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 8px; /* Optional: Rounded corners for the logo */
+}
+
+header h1 {
+  font-family: "Ink Free", cursive; /* Custom font for title */
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 1.5rem;
+  text-align: center;
+  color: #fc5c85; /* Pink text for a unified theme */
+}
+
+footer {
+  background: #fc5c85; /* Pink background */
+  color: #000; /* Black text */
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
